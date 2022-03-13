@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Montserrat&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  gap: 30px;
+  width: 100%;
+}
+.mid {
+  max-width: 90%;
+  margin: auto;
+  flex: 2;
+}
+.mid h1 {
+  padding-top: 10px;
+  color: black;
+  font-family: "Lora", calibri;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.mid p {
+  padding-bottom: 10px;
+  font-family: "Montserrat", calibri;
+}
+@media all and (max-width: 676px) {
+  .mid h1 {
+    padding-bottom: 50px;
+    font-size: 25px;
+    caret-color: rgba(0, 0, 0, 0.336);
+    text-align: center;
+  }
+  .mid p {
+    text-align: center;
+  }
+}
